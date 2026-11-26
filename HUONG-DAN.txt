@@ -1,0 +1,6 @@
+1. Tạo API key tại https://aistudio.google.com/api-keys . Không gửi key cho người khác.
+2. Tạo repository tại https://github.com/new , tải các file và thư mục trong ZIP (giữ nguyên api/translate.js).
+3. Vào https://vercel.com/new , import repository, chọn Other nếu được hỏi framework.
+4. Environment Variables: GEMINI_API_KEY = key của bạn; ACCESS_CODE = mã truy cập dài do bạn tự chọn; GEMINI_MODEL = gemini-3.8-flash (có thể đổi theo model khả dụng).
+5. Deploy, mở domain được cấp. Chia sẻ link và mã truy cập cho người được phép.
+6. Vercel Hobby chỉ dành cho mục đích cá nhân phi thương mại. Nếu dùng cho shop, chọn gói phù hợp. Mã truy cập không phải giới hạn lượt dịch; trước khi mở rộng cần rate limit bền vững và giới hạn chi phí/hạn mức API. Không bật billing nếu không muốn phát sinh phí; kiểm tra quota và điều khoản dữ liệu Gemini. Không gửi dữ liệu nhạy cảm.
